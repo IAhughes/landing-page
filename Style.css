@@ -10,10 +10,11 @@ body{
 }
 
 header{
-    background-color:rgba(210, 180, 140, 0.6);
+    background-color:rgba(83, 219, 128, 0.6);
     border-radius: 0px 0px 20px 20px;
     font-family: Arial, Helvetica, sans-serif;
-    min-height: 60px;
+    min-height: 50px;
+    max-height: 10vh;
 }
 
 a{
@@ -21,7 +22,7 @@ a{
     text-decoration: none;
 }
 
-.sectionLinks{
+.navLinks{
     display:grid;
     float: right;
     top: 20px;
@@ -32,18 +33,23 @@ a{
     column-gap: 50px;
 }
 
-.section{
-    font-size: 20px;
-    background-color: rgba(85, 74, 74, 0.3);
+.navLink{
+    font-size: inherit;
+    /*background-color: rgba(85, 74, 74, 0.3);*/
     border-radius: 5px;
     transition: 1s;
 }
 
-.section:hover{
+.navLink:hover{
     font-size: 22px;
     background-color: rgb(14, 172, 184);
     transition: 1s;
     transition-duration: 1.5s;
+}
+
+.logoContainer{
+    display: grid;
+    height: 30px;
 }
 
 footer{

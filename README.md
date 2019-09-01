@@ -1,2 +1,4 @@
 # landing-page
- landing page for personal site
+ Project is now for the Chingu Pre-Work qualification
+
+ <b>Project is hosted over on:</b>****
